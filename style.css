@@ -1,0 +1,455 @@
+/*na4alna stranica*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #ffffff; /* нов по-мек фон */
+}
+
+
+header {
+  background-image: url('https://media.discordapp.net/attachments/1371116938171908156/1380840098459029524/Picsart_25-06-07_12-25-23-772.jpg?ex=684fe30e&is=684e918e&hm=3acfd5f971f73ff638e135f44006b13b341b76d5d22d5e5ef8763f783753b212&=&format=webp&width=1860&height=581');
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 255, 255);
+  padding: 50px 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+
+
+/*dobre do6li*/
+
+
+.welcome-text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.welcome-text h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.welcome-text p {
+  font-size: 18px;
+  color: #555;
+}
+
+
+
+/*registraciq*/
+
+
+.register-box {
+  background-color: #eef2f7; /* мек синьо-сив фон */
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 40px auto;
+  text-align: center;
+}
+
+.register-box h3 {
+  margin-bottom: 15px;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background-color: #004999;
+}
+
+
+
+/*novini*/
+
+
+.news-section {
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+.news-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.news-card {
+  display: flex;
+  gap: 20px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.news-card img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.news-content {
+  flex: 1;
+}
+
+.news-content h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #0077cc;
+}
+
+.news-content p {
+  margin: 0 0 10px;
+  color: #444;
+}
+
+.news-content a {
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: bold;
+}
+
+.news-content a:hover {
+  text-decoration: underline;
+}
+
+
+/*telefoni*/
+
+
+
+.brand-section {
+  padding: 40px 20px;
+}
+
+.phone-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.phone-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 220px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.phone-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.phone-card h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.phone-card a {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #0077cc;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.phone-card a:hover {
+  background-color: #005fa3;
+}
+
+
+
+.laptop-section {
+  padding: 40px 20px;
+}
+
+.laptop-section h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.laptop-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.laptop-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 240px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.laptop-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.laptop-card h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.laptop-card a {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #28a745;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.laptop-card a:hover {
+  background-color: #19692c;
+}
+
+
+
+/*contacti*/
+
+.contact-section {
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  max-width: 700px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.contact-section h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-section p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+  font-size: 16px;
+  text-align: left;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.contact-form button {
+  padding: 10px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #005fa3;
+}
+
+/*kontakti*/
+
+  body {
+      font-family: Arial, sans-serif;
+    }
+    .contact-wrapper {
+      display: flex;
+      gap: 40px;
+      align-items: flex-start;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .follow-us {
+      flex: 1;
+      background-color: #f2f2f2;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: left;
+    }
+
+    .follow-us h3 {
+      margin-bottom: 15px;
+      font-size: 20px;
+    }
+
+    .social-links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .social-links a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: #000;
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    .social-links a img {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
+
+    .contact-section {
+      flex: 2;
+      text-align: center;
+    }
+
+    .contact-section h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .contact-info {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+
+    .contact-info li {
+      margin-bottom: 10px;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .contact-form textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    .contact-form button {
+      padding: 10px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .contact-form button:hover {
+      background-color: #005fa3;
+    }
